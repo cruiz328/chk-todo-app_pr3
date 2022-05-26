@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/keneversley/chk3#readme",
   "dependencies": {
+   
     "concurrently": "^7.2.1"
   }
 }
