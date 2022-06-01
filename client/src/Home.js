@@ -13,9 +13,7 @@ export const Home = () => {
     </Nav>
     </Container>
   </Navbar>
-
-
-        </>
+   </>
     )
 }
 
