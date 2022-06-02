@@ -2,7 +2,6 @@ const { Schema, model } = require('mongoose');
 const bcrypt = require('bcryptjs');
 const userSchema = new Schema({
 	firstName: String,
-	lastName: String,
 	password: String,
 });
 // hooks
@@ -10,15 +9,20 @@ const userSchema = new Schema({
 // we can make use of the 'pre' hook
 /*
 * {
-*   name: 'Naruto',
-*   lastName: 'Uzumaki',
-*   password: '123'
+*   name: 'Chris',
+// *   lastName: 'Ruiz',
+*   password: '328'
 * }
 *
 * * {
-*   name: 'Naruto',
-*   lastName: 'Jucaban',
-*   password: '123'
+*   name: 'Ken',
+// *   lastName: 'Eversley',
+*   password: '1028'
+* }
+* * {
+*   name: 'Hamed',
+// *   lastName: 'Sayah',
+*   password: '906'
 * }
 *
 * */
