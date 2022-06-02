@@ -17,4 +17,4 @@ mongoose.connect(process.env.MONGODB_URI)
 })
 .catch(err => console.log(err));
 
-app.listen(PORT, () => console.log('Successfully creatted server'));
+app.listen(PORT, () => console.log('Successfully created server'));
